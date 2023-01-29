@@ -34,6 +34,11 @@ function numb(numero) { // Função com parametro
     console.log(`O triplo é ${numero}`);
 }
 numb(5 * 3)
+//ou
+function double(num){
+    return num*3;
+    }
+    console.log(double(2))
 
 // ATT 6
 
@@ -42,3 +47,4 @@ function verificador() {
     console.log(verifica === 20)
 }
 verificador()
+
